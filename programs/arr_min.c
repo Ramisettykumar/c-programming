@@ -7,10 +7,10 @@ void max()
 	scanf("%d",&a[i]);
 	for(i=0;i<10;i++)
 	{
-		if(a[0]<a[i])
+		if(a[0]>a[i])
 			a[0]=a[i];
 	}
-	printf("The max element in array is %d\n",a[0]);
+	printf("The min element in array is %d\n",a[0]);
 }
 int main()
 {
